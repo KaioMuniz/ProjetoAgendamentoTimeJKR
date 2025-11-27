@@ -1,0 +1,11 @@
+package br.com.timeJKR.core.domain.dtos.out;
+
+import java.time.LocalDateTime;
+
+public record AtualizarAgendamentoPorIdResponse(
+		LocalDateTime entrada,
+		LocalDateTime saida,
+		String status
+		) {
+
+}
